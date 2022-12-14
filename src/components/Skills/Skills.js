@@ -28,10 +28,10 @@ const Skills = () => {
             <Lottie className="" animationData={js}></Lottie>
             <Lottie className="" animationData={react}></Lottie>
             <Lottie className="" animationData={node}></Lottie>
-            <Lottie className="" animationData={react}></Lottie>
+           
             <Lottie className="" animationData={firebase}></Lottie>  
             <Lottie className="" animationData={mongo}></Lottie>           
-            <Lottie className="" animationData={firebase}></Lottie>    
+             
             <Lottie className="" animationData={css}></Lottie>  
             <Lottie className="" animationData={github}></Lottie>  
          

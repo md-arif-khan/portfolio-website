@@ -5,7 +5,7 @@ import arifkhan from '../../images/arif.jpg'
 import Skills from '../Skills/Skills';
 const About = () => {
     return (
-        <div class="bg-[#0A192F] py-6 sm:py-8 lg:py-12 ">
+        <div class="bg-[#0A192F] py-12 sm:py-8 lg:py-24 ">
   <div class="px-4 md:px-8 mx-auto mb-8 max-w-7xl mx-auto">
     <div class="md:h-80 flex flex-col sm:flex-row bg-gray-200 rounded-lg overflow-hidden">
      
@@ -25,7 +25,7 @@ const About = () => {
     </div>
   </div>
   
-  <Skills></Skills>
+  
 </div>
     );
 };

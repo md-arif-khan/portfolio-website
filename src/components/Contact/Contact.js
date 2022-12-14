@@ -18,7 +18,7 @@ const Contact = () => {
     return (
       
         <section id="contact" className="py-6 dark:bg-gray-800 dark:text-gray-50">
-	<div className="grid  max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+	<div className="grid  max-w-6xl border p-4 grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 text-white md:px-6">
 			<h1 className="text-4xl font-bold">Get in touch</h1>
 			<p className="pt-2 pb-4">Fill in the form to start a conversation</p>

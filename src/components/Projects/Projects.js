@@ -1,35 +1,25 @@
-import React from 'react';
-import image1 from  '../../images/project1.png'
-import image2 from  '../../images/project3.png'
-import image3 from  '../../images/project4.png'
+import React, { useEffect, useState } from 'react';
+import {Link, useNavigate} from 'react-router-dom';
 import Project from './Project';
 const Projects = () => {
-   const projectDetails=[
-         {
-          id:1,
-          name:'Whole Sale',
-          image:image1,
+   const [details,setDetails]=useState([])
+   const navigate = useNavigate();
+   useEffect(()=>{
+      fetch('data.json')
+      .then(res=>res.json())
+      .then(data=>setDetails(data))
+   },[])
 
-         },
-         {
-          id:2,
-          name:'Carrer Plus',
-          image:image2,
-
-         },
-         {
-          id:3,
-          name:'Holy Tour',
-          image:image3,
-
-         },
-   ]
+   const handleData=project=>{
+      navigate('/details',{state:project});
+   }
+   
     return (
        <div className='max-w-7xl mx-auto pb-6'>
         <h1 className='text-center text-3xl font-bold py-6 text-[#64FFDA]'>PROJECTS</h1>
         <div className='md:grid-cols-2 grid-cols-1 lg:grid-cols-3 grid'>
              {
-              projectDetails.map(project=><Project  project={project}></Project>)
+              details.map(project=><Project handleData={handleData}  project={project}></Project>)
              }
         </div>
        </div>

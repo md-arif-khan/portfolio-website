@@ -1,0 +1,43 @@
+[
+    {
+      "id":1,
+      "name": "Whole Sale",
+      "picture": "https://i.ibb.co/BPBmZJc/Screenshot-14.png",
+      
+      "image2":"https://i.ibb.co/G34XV0x/Screenshot-20.png",
+      "image3":"https://i.ibb.co/HXgSt77/Screenshot-21.png",
+      "dec": "The best among them is wholesale, it is a MERN Stack project, it is a website for selling old goods. This website can be used by three types of users, they are admin, seller, buyer. An admin can see all buyers and all sellers information. A seller can add new products. A buyer can buy any product.",
+      "facilities": ["Responsive MERN Stack Project with firebase authentication.","This website can be used by three users, Admin, buyers and sellers. Admin can control and delete all buyers and sellers.","Seller can add new products. A buyer can order a product."],
+      "live": "https://wholesale-dc94d.web.app/",
+      "githubClient":"https://github.com/md-arif-khan/wholeSale-client",
+      "githubServer": "https://github.com/md-arif-khan/wholeSale-server-site",
+      "technology":"React.js, React Router, Firebase, Tailwind CSS, Node.js, MongoDB, JWT, Vercel,Express.js"
+    },
+    {
+      "id":2,
+      "name": "Holy Tour",
+      "picture":"https://i.ibb.co/SsCKSQB/Screenshot-19.png",
+      "image2":"https://i.ibb.co/nm8GH2F/Screenshot-16.png",
+      "image3":"https://i.ibb.co/Vx03ss0/Screenshot-15.png",
+      "dec": "This is a tourist website. By using this website any tourist can go to any place of his choice. Every tourist can give a review about how his trip was. He needs to be logged in to give a review. The admin can add a new service if he wants",
+      "facilities": ["Responsive MERN Stack Project with firebase authentication.","It is a tourism website through this website a tourist can go to the place of his choice.","A tourist can give a review of each service."],
+      "live": "https://holy-tour.web.app/",
+      "githubClient":"https://github.com/md-arif-khan/holy-tour-client-side",
+      "githubServer": "https://github.com/md-arif-khan/holy-tour-server-site",
+      "technology":"React.js, Firebase, Tailwind CSS, Node.js, MongoDB, Vercel, JWT, Daisy UI."
+    },
+    {
+      "id": 3,
+      "name": "Carrer Plus",
+      "picture": "https://i.ibb.co/cLd5Nxk/Screenshot-22.png",
+      "image2":"https://i.ibb.co/LNVzNtt/Screenshot-17.png",
+      "image3":"https://i.ibb.co/4jyS6jR/Screenshot-23.png",
+     
+      "dec": "It is an online learning platform. Different types of courses are available here. Anyone can take the course according to their choice from here Premium courses are also available here. He must be logged in to purchase that premium course",
+      "facilities": ["Responsive MERN Stack Project with firebase authentication.","It is an online learning platform, from here anyone can take the course of their choice.","Each course requires some fees."],
+      "live": "https://career-plus-a88a6.web.app/",
+      "githubClient":"https://github.com/md-arif-khan/career-plus-client-side",
+      "githubServer": "https://github.com/md-arif-khan/career-plus-server-side",
+      "technology":"React.js, React Router, Firebase, Tailwind CSS, Daisy UI, Node.js, Express.js."
+    }
+  ]
